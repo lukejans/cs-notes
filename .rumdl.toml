@@ -1,0 +1,16 @@
+[global]
+disable = ["MD045"]
+
+[MD007]
+style = "fixed"
+indent = 4
+
+[MD013]
+line-length = 0
+
+[MD014]
+show-output = false
+
+[MD040]
+style = "consistent"
+unknown-language-action = "warn"

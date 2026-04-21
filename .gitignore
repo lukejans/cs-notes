@@ -1,0 +1,13 @@
+# editor
+.idea/
+.vscode/
+.zed/
+
+# formatter
+.rumdl_cache
+
+# macOS
+.DS_Store
+
+# pkm tooling
+.obsidian/

@@ -1,0 +1,24 @@
+# normalize all text files to LF
+* text=auto eol=lf
+
+# windows batch scripts need CRLF
+*.bat text eol=crlf
+
+# linux/mac shell scripts need LF
+*.sh text eol=lf
+
+# prevent binary file corruption
+*.eot binary
+*.pdf binary
+*.zip binary
+*.exe binary
+*.ico binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.mp3 binary
+*.mp4 binary
+*.mov binary
+*.ttf binary
+*.woff binary
